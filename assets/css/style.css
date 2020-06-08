@@ -1,12 +1,113 @@
+:root {
+    --color1: #0D2b45;
+    --color2: white;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/*Header styling*/
 
-header nav li {
-    display: inline-flex;
-    align-items: flex-end;
+header {
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: var(--color1);
+    color: var(--color2);
+    background-image: url("../images/city.jpg");
+    background-size: 800px;
+    background-position: center;
+
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
+header nav {
+    margin: 7px 0;
+    width: 100%;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 26px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
+header nav ul li a:hover {
+    background: var(--color2);
+    color: var(--color1);
+    transition: 1s;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: var(--color2);
+}
+
+/*Footer/contact section style*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--color1);
+    color: var(--color2)
+}
+
+footer h2 {
+    font-size: 25px;
     padding: 20px;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+
+.contactinfo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 50px;
+    justify-content: space-around;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+}
+.contactinfo a {
+    border-bottom: 2px solid var(--color2);
+    border-radius: 5px;
+}
+
+.contactinfo a:hover {
+    background: var(--color2);
+    color: var(--color1);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color2);
+    padding: 20px;
+}
+
+/*jumbotron/hero styling */
+
+.jumbotron {
+
 }
