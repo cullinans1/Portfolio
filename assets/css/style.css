@@ -8,13 +8,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.section-title {
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.primarytitle {
+    color: var(--color1);
+    border-right: 5px solid var(--color1);
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secondarytitle {
+    color: var(--color2);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sectionlayout {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--color3);
+    padding-top: 10px;
+    justify-content: left;
+}
 /*Header styling*/
 
 header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--color1);
     color: var(--color2);
 
@@ -42,7 +70,7 @@ header nav ul {
 header nav ul li {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 26px;
+    font-size: 25px;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
 }
 
@@ -69,21 +97,6 @@ footer {
     background-color: var(--color1);
     color: var(--color2)
 }
-
-.section-title {
-    font-size: 25px;
-    padding: 20px;
-    width: 100%;
-}
-
-.primarytitle {
-    color: var(--color1);
-}
-
-.secondarytitle {
-    color: var(--color2);
-}
-
 
 .contactinfo {
     display: flex;
@@ -121,29 +134,30 @@ footer a {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding: 75px;
+    padding: 150px;
 }
 
 .jumbotron h1 {
-    font-size: 25px;
+    font-size: 50px;
     color: var(--color2);
     position: relative;
-    right: 70px;
-    top: 70px;
+    right: 100px;
+    top: 80px;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
 }
 
 /* Bio section */
 
-.about-me {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    background: var(--color3)
-}
-
 .info {
     margin: 20px;
     font-size: 18px;
+    text-align: left;
+    width: 40%;
+    line-height: 1.5;
+}
 
+/* My Projects section */
+
+.projects {
+    background: var(--color3);
 }
