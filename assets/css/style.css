@@ -182,7 +182,12 @@ footer a {
     background-position: center;
     background-size: cover;
 }
-.box1 h3 {
+.box1 a {
+    text-decoration: none;
+    padding: 100px;
+}
+.box1 a {
+    text-decoration: none;
     font-size: 25px;
     color: var(--color2);
     padding: 15px;
@@ -192,10 +197,9 @@ footer a {
 .box1 p {
     font-size: 15px;
     color: var(--color2);
-    background-color: var(--color1);
     position: absolute;
     border-radius: 5px;
-    margin: 0 40px;
+    margin: 0 20px;
 }
 .box2 {
     grid-column: 1/ span 4;
@@ -220,6 +224,13 @@ footer a {
     .picture {
         height: 50vw;
         width: 30%;
+    }
+    .box1 a {
+        font-size: 18px;
+    }
+    .box1 p {
+        font-size: 12px;
+        margin: 0 10px;
     }
 }
 @media screen and (max-width: 575px) {
