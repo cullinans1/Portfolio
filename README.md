@@ -1,6 +1,9 @@
 # Sammy Cullinan's professional portfolio
 
-## On this website you can learn more about me, look at the existing projects I have made, as well as connect with me. 
+## On this website you can:
+ * Learn more about me
+ * Look at the existing projects I have made
+ * Connect with me
 
 ## This website is available at the following URL: 
 
