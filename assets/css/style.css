@@ -76,8 +76,13 @@ header a {
     text-decoration: none;
     color: var(--color2);
 }
-/*Footer/contact section style*/
-footer {
+.borderonbottom {
+    padding: 15px;
+    background-color: var(--color1);
+    width: 100%;
+}
+/*contact section style*/
+.contact {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -98,6 +103,7 @@ footer {
     border-radius: 5px;
     margin: 0 30px;
 }
+
 @media screen and (min-width:980px) {
     .contactinfo a:hover {
         background: var(--color1);
@@ -106,7 +112,7 @@ footer {
         transition: 0.5s;
     }
 }
-footer a {
+.contact a {
     text-decoration: none;
     color: var(--color1);
     padding: 20px;
@@ -166,11 +172,6 @@ footer a {
     margin: 15px auto;
     grid-gap: 10px;
 }
-.project {
-    background-color: var(--color1);
-    border: solid;
-    color: black;
-}
 .box1 {
     grid-column: 1/ span 4;
     grid-row: 1/ span 3;
@@ -203,6 +204,7 @@ footer a {
 .box2 {
     background-image: url(../images/passgen.png);
     background-position: center;
+    border: 3px solid var(--color1);
     background-size: cover;
     grid-column: 1/ span 4;
     grid-row: 4/ span 2;
@@ -217,6 +219,7 @@ footer a {
     grid-column: 5/ span 2;
     grid-row: 1/ span 3;
     border-radius: 10px;
+    border: 3px solid var(--color1);
     background-image: url(../images/rg.jpg);
     background-position: center;
     background-size: cover;
