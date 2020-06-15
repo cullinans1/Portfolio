@@ -182,34 +182,53 @@ footer a {
     background-position: center;
     background-size: cover;
 }
-.box1 a {
+.boxstyle a {
     text-decoration: none;
-    padding: 100px;
-}
-.box1 a {
-    text-decoration: none;
-    font-size: 25px;
     color: var(--color2);
-    padding: 15px;
+    padding: 20px;
+    padding-top: 10px;
     background-color: var(--color1);
     border-radius: 5px;
 }
-.box1 p {
+.boxstyle p {
     font-size: 15px;
     color: var(--color2);
     position: absolute;
     border-radius: 5px;
-    margin: 0 20px;
+    margin: 0 12px;
+}
+.boxstyle h3 {
+    font-size: 20px;
 }
 .box2 {
+    background-image: url(../images/passgen.png);
+    background-position: center;
+    background-size: cover;
     grid-column: 1/ span 4;
     grid-row: 4/ span 2;
     border-radius: 10px;
+    display:flex;
+    align-items: flex-start;
+}
+.box2 p {
+    margin: 0 55px;
 }
 .box3 {
     grid-column: 5/ span 2;
     grid-row: 1/ span 3;
     border-radius: 10px;
+    background-image: url(../images/rg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+}
+.box3 h3 {
+    font-size: 15px;
+}
+.box3 p {
+    font-size: 12px;
+    margin: 0 20px;
 }
 /*media query for hover effect on desktop*/
 @media screen and (min-width: 980px) {
@@ -225,10 +244,10 @@ footer a {
         height: 50vw;
         width: 30%;
     }
-    .box1 a {
+    .boxstyle a {
         font-size: 18px;
     }
-    .box1 p {
+    .boxstyle p {
         font-size: 12px;
         margin: 0 10px;
     }
