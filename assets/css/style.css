@@ -256,6 +256,9 @@ header a {
     }
 }
 @media screen and (max-width: 575px) {
+    header nav ul li {
+        border-bottom: 2px solid var(--color3);
+    }
     .jumbotron h1 {
         font-size: 8vw;
         right: 120px;
