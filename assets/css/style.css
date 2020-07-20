@@ -202,7 +202,7 @@ header a {
     font-size: 20px;
 }
 .box2 {
-    background-image: url(../images/passgen.png);
+    background-image: url(../images/planhike.png);
     background-position: center;
     border: 3px solid var(--color1);
     background-size: cover;
@@ -213,7 +213,7 @@ header a {
     align-items: flex-start;
 }
 .box2 p {
-    margin: 0 55px;
+    margin: 0 -1px;
 }
 .box3 {
     grid-column: 5/ span 2;
