@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .section-title {
     font-size: 40px;
@@ -142,6 +143,7 @@ header a {
     text-align: left;
     width: 30%;
     line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
 }
 .picture {
     background-image: url(../images/profilepic.jpg);
