@@ -182,6 +182,9 @@ header a {
 .projects {
     background: var(--color3);
 }
+.project-row {
+    margin-bottom: 15px;
+}
 #project-layout{
     width: 75%;
 }
@@ -215,7 +218,13 @@ header a {
     background-image: url(../images/planhike.png);
 }
 .box3 {
-    background-image: url(../images/rg.jpg);
+    background-image: url(../images/codingquiz.png);
+}
+.box4 {
+    background-image: url(../images/taskmaster.png);
+}
+.box5 {
+    background-image: url(../images/weatherdb.png);
 }
 /*media query for hover effect on desktop*/
 @media screen and (min-width: 980px) {
@@ -272,6 +281,12 @@ header a {
         width: 100%;
         margin: 20px;
         height: 280px;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .carousel-inner {
+        padding: 20px;
     }
     #project-title {
         width: 100%;
