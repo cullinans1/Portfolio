@@ -11,32 +11,37 @@
 </head>
 <body>
     <!--Header/Navigation-->
-    <header>
-        <nav>
-            <!-- Navigation elements -->
-            <ul>
-                <li>
-                    <a href="#bio">Who I Am</a>
-                </li>
-                <li>
-                    <a href="#projects">My Projects</a>
-                </li>
-                <li>
-                    <a href="assets/SammyCullinan_Resume (1).pdf" target="_blank">Resume</a>
-                </li>
-                <li>
-                    <a href="#connect">Connect</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!--End header-->
+    <div class='backdrop'>
+        <header>
+            <nav>
+                <!-- Navigation elements -->
+                <ul>
+                    <li>
+                        <a href="#bio">Who I Am</a>
+                    </li>
+                    <li>
+                        <a href="#projects">My Projects</a>
+                    </li>
+                    <li>
+                        <a href="assets/SammyCullinan_Resume (1).pdf" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--End header-->
 
-    <!--Jumbotron/hero-->
-    <section class="jumbotron">
-        <h1></h1>
-    </section>
-
+        <!--Jumbotron/hero-->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container jumbo-container">
+            <h1 class="display-4">Sammy Cullinan</h1>
+            <p class="lead">Full Stack Developer</p>
+            </div>
+        </div>
+        <canvas class="background"></canvas>
+</div>
     <!--Bio section-->
     <section id="bio" class="sectionlayout">
         <h2 class="section-title primarytitle"> 
@@ -57,31 +62,142 @@
 
     <!--Project section-->
     <section class="sectionlayout" id="projects">
-        <h2 class="section-title primarytitle">
+        <h2 class="section-title primarytitle" id='project-title'>
             My Projects
         </h2>
-        <div class="project-grid-layout">
-            <div class="project-grid">
-                <div class="box1 boxstyle" title="Run-Buddy website made with HTML and CSS">
-                    <a href="https://cullinans1.github.io/run-buddy/" target="_blank">
-                        <h3>Run Buddy</h3>
-                        <p>HTML/CSS</p>
-                    </a> 
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="8000">
+                <div class="container" id='project-layout'>
+                    <div class="row project-row">
+                      <div class="col">
+                        <a href="https://cullinans1.github.io/run-buddy/" target="_blank">
+                            <div class='box1 box-style'>
+                                <div class='proj-txt'>
+                                    <h3>Run Buddy</h3>
+                                    <p>HTML/CSS</p>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="https://cullinans1.github.io/PlanAHike/" target="_blank">
+                            <div class='box2 box-style'>
+                                <div class='proj-txt'>
+                                    <h3>Plan a Hike!</h3>
+                                    <p>HTML/CSS/JavaScript/AJAX</p>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="row project-row">
+                        <div class="col">
+                          <a href="https://cullinans1.github.io/Coding-quiz/" target="_blank">
+                              <div class='box3 box-style'>
+                                  <div class='proj-txt'>
+                                      <h3>Coding Quiz</h3>
+                                      <p>JavaScript</p>
+                                  </div>
+                              </div>
+                          </a>
+                        </div>
+                        <div class="col">
+                          <a href="https://cullinans1.github.io/taskmaster-pro/" target="_blank">
+                              <div class='box4 box-style'>
+                                  <div class='proj-txt'>
+                                      <h3>Task Master Pro</h3>
+                                      <p>HTML/CSS/JavaScript</p>
+                                  </div>
+                              </div>
+                          </a>
+                        </div>
+                      </div>
                 </div>
-                <div class="box2 boxstyle">
-                    <a href="https://cullinans1.github.io/PlanAHike/" target="_blank">
-                        <h3>Plan a hike!</h3>
-                        <p>Front End Project</p>
-                    </a>
+              </div>
+              <div class="carousel-item" data-interval="8000">
+                <div class="container" id='project-layout'>
+                    <div class="row project-row">
+                      <div class="col">
+                        <a href="https://cullinans1.github.io/weather-dashboard/" target="_blank">
+                            <div class='box5 box-style'>
+                                <div class='proj-txt'>
+                                    <h3>Weather Dashboard</h3>
+                                    <p>JavaScript/jQuery/AJAX</p>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="https://cullinans1.github.io/PlanAHike/" target="_blank">
+                            <div class='box2 box-style'>
+                                <div class='proj-txt'>
+                                    <h3>Plan a Hike!</h3>
+                                    <p>HTML/CSS/JavaScript</p>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="row project-row">
+                        <div class="col">
+                          <a href="https://cullinans1.github.io/run-buddy/" target="_blank">
+                              <div class='box1 box-style'>
+                                  <div class='proj-txt'>
+                                      <h3>Run Buddy</h3>
+                                      <p>HTML/CSS</p>
+                                  </div>
+                              </div>
+                          </a>
+                        </div>
+                        <div class="col">
+                          <a href="https://cullinans1.github.io/PlanAHike/" target="_blank">
+                              <div class='box2 box-style'>
+                                  <div class='proj-txt'>
+                                      <h3>Plan a Hike!</h3>
+                                      <p>HTML/CSS/JavaScript</p>
+                                  </div>
+                              </div>
+                          </a>
+                        </div>
+                      </div>
                 </div>
-                <div class="box3 boxstyle">
-                    <a href="https://cullinans1.github.io/Coding-quiz/" target="_blank">
-                        <h3>Coding Quiz</h3>
-                        <p>Javascript</p>
-                    </a>
-                    
+              </div>
+              <div class="carousel-item" data-interval="8000">
+                <div class="container" id='project-layout'>
+                    <div class="row">
+                      <div class="col">
+                        <a href="https://cullinans1.github.io/run-buddy/" target="_blank">
+                            <div class='box1 box-style'>
+                                <div class='proj-txt'>
+                                    <h3>Run Buddy</h3>
+                                    <p>HTML/CSS</p>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="https://cullinans1.github.io/PlanAHike/" target="_blank">
+                            <div class='box2 box-style'>
+                                <div class='proj-txt'>
+                                    <h3>Plan a Hike!</h3>
+                                    <p>HTML/CSS/JavaScript</p>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                    </div>
                 </div>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
         </div>
     </section>
 
@@ -103,9 +219,12 @@
     <div class="borderonbottom">
         <h2></h2>
     </div>
+    
+    <script src='./assets/javascript.js'></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./node_modules/particlesjs/dist/particles.min.js"></script>
 </body>
 
 </html>
