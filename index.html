@@ -11,32 +11,37 @@
 </head>
 <body>
     <!--Header/Navigation-->
-    <header>
-        <nav>
-            <!-- Navigation elements -->
-            <ul>
-                <li>
-                    <a href="#bio">Who I Am</a>
-                </li>
-                <li>
-                    <a href="#projects">My Projects</a>
-                </li>
-                <li>
-                    <a href="assets/SammyCullinan_Resume (1).pdf" target="_blank">Resume</a>
-                </li>
-                <li>
-                    <a href="#connect">Connect</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!--End header-->
+    <div class='backdrop'>
+        <header>
+            <nav>
+                <!-- Navigation elements -->
+                <ul>
+                    <li>
+                        <a href="#bio">Who I Am</a>
+                    </li>
+                    <li>
+                        <a href="#projects">My Projects</a>
+                    </li>
+                    <li>
+                        <a href="assets/SammyCullinan_Resume (1).pdf" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--End header-->
 
-    <!--Jumbotron/hero-->
-    <section class="jumbotron">
-        <h1></h1>
-    </section>
-
+        <!--Jumbotron/hero-->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+            <h1 class="display-4">Fluid jumbotron</h1>
+            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            </div>
+        </div>
+        <canvas class="background"></canvas>
+</div>
     <!--Bio section-->
     <section id="bio" class="sectionlayout">
         <h2 class="section-title primarytitle"> 
@@ -60,7 +65,8 @@
         <h2 class="section-title primarytitle">
             My Projects
         </h2>
-        <div class="project-grid-layout">
+        
+        <!-- <div class="project-grid-layout">
             <div class="project-grid">
                 <div class="box1 boxstyle" title="Run-Buddy website made with HTML and CSS">
                     <a href="https://cullinans1.github.io/run-buddy/" target="_blank">
@@ -82,7 +88,7 @@
                     
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!--contact-->
@@ -103,9 +109,12 @@
     <div class="borderonbottom">
         <h2></h2>
     </div>
+    
+    <script src='./assets/javascript.js'></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./node_modules/particlesjs/dist/particles.min.js"></script>
 </body>
 
 </html>
