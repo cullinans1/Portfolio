@@ -129,6 +129,7 @@ header a {
     margin-bottom: 0;
     z-index: 0;
     padding: 250px;
+    background-color: var(--color3);
 }
 .backdrop {
     max-width: 100%;
