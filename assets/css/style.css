@@ -122,9 +122,6 @@ header a {
 }
 /*jumbotron/hero styling */
 .jumbotron {
-    /* background-image: url("../images/city.jpg");
-    background-size: cover;
-    background-position: center; */
     color: var(--color3);
     display: flex;
     flex-wrap: wrap;
@@ -133,14 +130,6 @@ header a {
     z-index: 0;
     padding: 250px;
 }
-/* .jumbotron h1 {
-    font-size: 50px;
-    color: var(--color2);
-    position: relative;
-    right: 100px;
-    top: 100px;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
-} */
 .backdrop {
     max-width: 100%;
     height: 675px;
@@ -187,42 +176,40 @@ header a {
 .col {
     height: 250px;
 }
-.box1 {
-    background-image: url(../images/runbuddy.png);
-    background-position: center;
-    background-size: cover;
+.box-style {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
     height: 100%;
     width: 100%;
     border-radius: 3px;
+    background-position: center;
+    background-size: cover;
+}
+.proj-txt {
+    text-decoration: none;
+    background-color: var(--color1);
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    z-index: -1;
+}
+.box1 {
+    background-image: url(../images/runbuddy.png);
 }
 .box2 {
     background-image: url(../images/planhike.png);
-    background-position: center;
-    border: 3px solid var(--color1);
-    background-size: cover;
-    grid-column: 1/ span 4;
-    grid-row: 4/ span 2;
-    border-radius: 10px;
-    display:flex;
-    align-items: flex-start;
 }
 .box3 {
-    grid-column: 5/ span 2;
-    grid-row: 1/ span 3;
-    border-radius: 10px;
-    border: 3px solid var(--color1);
     background-image: url(../images/rg.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-start;
 }
 /*media query for hover effect on desktop*/
 @media screen and (min-width: 980px) {
-    .box1:hover, .box2:hover, .box3:hover {
+    .box-style:hover {
         opacity: .3;
         transition: .5s;
+    }
+    .proj-txt:hover{
+        z-index: 2;
+        opacity: ;
     }
 }
 /*Media query for smaller screens*/
