@@ -131,7 +131,7 @@ header a {
     width: 100%;
     margin-bottom: 0;
     z-index: 0;
-    /* padding: 150px; */
+    padding: 250px;
 }
 /* .jumbotron h1 {
     font-size: 50px;
@@ -172,7 +172,6 @@ header a {
     background-position: center;
     margin-left: 50px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    border: 2px solid var(--color1);
     border-radius: 5px;
 }
 /* My Projects section */
