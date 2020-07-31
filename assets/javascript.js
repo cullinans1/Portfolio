@@ -3,5 +3,15 @@ window.onload = function() {
     selector: '.background',
     color: ['#ffffff'], 
     connectParticles: true,
+
+    //break point for mobile
+    responsive: [
+        {
+            breakpoint: 575,
+            options: {
+                maxParticles: 50,
+            }
+        }
+    ]
   });
 };
