@@ -178,49 +178,23 @@ header a {
 .projects {
     background: var(--color3);
 }
-.project-grid-layout {
-    display:flex;
-    width: 50%;
-    justify-content: center;
+#project-layout{
+    width: 75%;
 }
-/* Project grid */
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    width: 35vw;
-    height: 30vw;
-    margin: 15px auto;
-    grid-gap: 10px;
+#project-title {
+    width: 25%;
+}
+.col {
+    height: 250px;
 }
 .box1 {
-    grid-column: 1/ span 4;
-    grid-row: 1/ span 3;
-    border-radius: 10px;
-    border: 3px solid var(--color1);
-    display: flex;
-    align-items: flex-end;
     background-image: url(../images/runbuddy.png);
     background-position: center;
     background-size: cover;
-}
-.boxstyle a {
-    text-decoration: none;
-    color: var(--color2);
-    padding: 20px;
-    padding-top: 10px;
-    background-color: var(--color1);
-    border-radius: 5px;
-}
-.boxstyle p {
-    font-size: 15px;
-    color: var(--color2);
-    position: absolute;
-    border-radius: 5px;
-    margin: 0 12px;
-}
-.boxstyle h3 {
-    font-size: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
 }
 .box2 {
     background-image: url(../images/planhike.png);
@@ -233,9 +207,6 @@ header a {
     display:flex;
     align-items: flex-start;
 }
-.box2 p {
-    margin: 0 -1px;
-}
 .box3 {
     grid-column: 5/ span 2;
     grid-row: 1/ span 3;
@@ -247,19 +218,11 @@ header a {
     display: flex;
     align-items: flex-start;
 }
-.box3 h3 {
-    font-size: 15px;
-}
-.box3 p {
-    font-size: 12px;
-    margin: 0 20px;
-}
 /*media query for hover effect on desktop*/
 @media screen and (min-width: 980px) {
     .box1:hover, .box2:hover, .box3:hover {
-        opacity: .8;
-        transition: 1s;
-        padding: 15px;
+        opacity: .3;
+        transition: .5s;
     }
 }
 /*Media query for smaller screens*/
