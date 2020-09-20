@@ -228,6 +228,10 @@ header a {
 .box5 {
     background-image: url(../images/weatherdb.png);
 }
+.box6 {
+    background-image: url(../images/ems.jpg);
+}
+
 /*media query for hover effect on desktop*/
 @media screen and (min-width: 980px) {
     .box-style:hover {
