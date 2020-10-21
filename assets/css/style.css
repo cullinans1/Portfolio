@@ -231,6 +231,9 @@ header a {
 .box6 {
     background-image: url(../images/ems.jpg);
 }
+.box7 {
+    background-image: url(../images/TechBlog.png);
+}
 
 /*media query for hover effect on desktop*/
 @media screen and (min-width: 980px) {
